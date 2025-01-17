@@ -1,0 +1,435 @@
+4/7/2024
+
+NOTE : Initiation By api Approve By FCMS ->SCN 3 AEL > BP Package> files arent there in folder
+
+Task :
+1.  H2H SCN
+2.  Cutoff SCn UTR validation
+3.  DT  - FCM  s145   ..........................................................Completed
+4.  Copy Record SCN (Prajakta )
+    Ini by api approve by FCMS ---> all packages (take diff clint record of previous scn to copy)  .........Completed
+5.SFMS Report validation 
+
+____________________________________________________________________________________________________________
+
+5/7/24
+
+Task:
+1.  H2H
+2.  Cutoff SCn UTR validation //   files no finding ---------------------------Completeed
+5.  SFMS Report validation
+
+____________________________________________________________________________________________________________
+
+8/7/24 (Monday)
+
+ Task:
+1 H2H
+2 API UTR Generation (Copy Record API &API SCN 5 package ) ......................Completed
+3.
+__________________________________________________________________________________________________________
+9/7/24 (Tuesday)
+
+Task:
+1.H2H
+2.API  (SFMS for all copy record ) &Other).......................................completed
+3.Siddhi YTR Validation (SCN 5 ,SCN 6 End To ENd ) ..............................Completed
+
+____________________________________________________________________________________________________________
+
+10/7/24
+
+Task:
+1.Siddhi (SCN 4 end to end )..................................Completed
+  SCN 4 Autoamsel All BB,BI pool REcon not found 
+
+2.Ratenesh File upload test (*Txn RTGS with same IFSC, BEN Name, Account)..........Completed
+3. Murli sir UTR GENration end to end validation (IP SCN2 , 4, 6 , 9)  ............Completed
+   (2 scn: 18 jun pending , 4 th done ,   6 scn Done , 9 All done)
+4.Siddhi Holiday scn txn inition.BB, BI............................................Completed
+_____________________________________________________________________________________________________________
+12/7/24
+1.Siddhi Holiday SCN End To End (BI, BB ) .............Completed
+2.Siddhi Holiday scn pool recon report logs remain , SFMS Remain.............................................Completed (SFMS Remain)
+3.Murli SCN 2, 4,6,9 Pool recon remain. and SCN2 SFMS remain.................................................Pending
+_____________________________________________________________________________________________________________
+15/07/24 (Monday)
+1.Yesterday Remaining stuff
+2.API Learn 
+3. Release 147 SFDC (File Upload Time , Approve time , Txn Process time) -> By Admi & Client
+   Change date & Time every file upload
+   Logs path-> Execution/passlog/prepod/147
+   Trackersheet-> Expleo/ReleaseTracker/Preprod/collection/july
+_____________________________________________________________________________________________________________
+16/7/24 (Tuesday)
+1.SFDC Release 147 (5 MB File)
+2.SFDC Release 145 (Enable Disable client user CRN Testing 12 digit) 
+3.Niraj ->Reports Testing................................................Completed
+
+_____________________________________________________________________________________________________________
+18/7/24
+1.147 SFDC (5 MB File) -> Bank side completed , Client side remain..
+2.145 SFDC (CRN Testing )
+3.Reports -> Niraj ........................................................Completed
+_______________________________________________________________________________________________________________
+19/7/24
+1.147 SFDC (5 MB File)
+       Admin side: file upload Time : 1:45 pm
+	client side: File upload : 10:21 am  ,  sucessfully  uploaded Time :10:42 AM
+
+2.145 SFDC (CRN Testing )..................................................On Hold
+3.Request Raise VDI.......................................................Completed
+4.H2H File Upload and Validation of paid unpaid and debit advise ........Completed
+______________________________________________________________________________________________________________
+22/07/24
+1.5 MB File - Mail  .....................................................Completed
+2.H2H File Validation ..................................................Completed
+
+_______________________________________________________________________________________________________________
+23/07/24
+1.5 MB File from H2H......................................................Completed
+2.VDI status scheck 
+_______________________________________________________________________________________________________________
+25/7/24
+1.5 MB File upload and status (prashant)...................................Completed
+2.12 digit CRN Testing and logs .........................................Completed
+_______________________________________________________________________________________________________________
+26/7/24
+1.Logs maintain 12 digit CRN 
+2.Alert Sql understanding (vidio: 26 jul 10:37)
+
+________________________________________________________________________________________________________________
+
+..........................................JARVIS PROJECT ......................................................
+5/08/24
+1. Testcases gothrough
+2. Training Data udemy
+3. 9 th august Meet
+________________________________________________________________________________________________________________
+8/8/24
+
+1. Matrix Creation and Check by initiating Txn 
+2. 
+
+_________________________________________________________________________________________________________________
+09/08/24
+
+1.Zero profing 
+2.Restrict Account setting and Initiate Txns
+
+________________________________________________________________________________________________________________
+
+12/08/24
+1. Sanity Of all funtionality
+
+
+____________________________________________________________________
+13/08/24
+Single payment -Working
+Batch - 1. with added - Working
+	2.with adoch & added- Working   (beneficiary added)
+File - Working ENd to end
+
+_________________________________________________________________________
+27/08/24
+1.After updating and sumbmiting txn when i click on view payment list , its not navigating     ...........Pending
+2.Return txn scn ->By entering wrong ifsc  (ift &NEFT) ........................................Pending
+3.LEI 40 tC execution
+4.file upload test for added bene 
+5.
+2.
+
+____________________________________________________________________________________________
+28/08/24
+
+1.Prod 82 defect retest (maintain log for single and batch update issue)
+2.Regression for creation in jarvis
+Issue:
+1.batch payment txn not getting saved 
+2.set this payment confedential on summary page - showing yes reject
+3.Transaction not showing in pending approval tab  -single entry
+
+
+
+
+____________________________________________________________________________________________
+29/08/24
+1.LEI execution
+2.Regression on File and batch 
+
+___________________________________________________________________________________________
+2/9/24
+1.Txn debit failee - Insufficient Available balance
+2.Receiver &LEI showing on payment creation 
+3.save button batch payment defect raise
+
+___________________________________________________________________________________________
+3/09/24
+1.VDI pass reset
+
+_______________________________________________________________________________________________
+5/09/24
+1.File upload size
+
+
+__________________________________________________________________________________________________
+
+13/09/24
+Test avm matrix .    comma in users
+
+_____________________________________________________________________________________________
+
+25/09/25
+
+Pending for tommarow:
+1. AVM matrix scn check
+2. Fresh login attempt check -- after Kuldeep done setup for 148
+3. TC execu
+4.79 defect pending send ss remain
+
+
+approve 1 otp
+1st resend
+2nd resend
+3rd resend -> error shown otp requested limit exceed
+_________________________________________________________________________________________________
+26/09/24
+1.Avm matrix scn - cases updation
+2.2. Fresh login attempt check -- after Kuldeep done setup for 148......    setup pending
+3.Instrumental scn execution  ..........................................  Not applicable for BB apck
+4.uat5 -80 retest imp
+
+
+myprofile complete
+account lock message not receive on mobile as receive on mail
+
+
+_______________________________________________________________________________________________________
+30/09/24
+1.My Profile
+2.Fresh login attemot check---setup pendig at Kuldeep end
+3.
+account lock message not receive on mobile as receive on mail
+4.Insurance
+
+______________________________________________________________________________________
+1/10/24
+1.My profile 
+2.Insurance
+3.Fresh login attempt
+_________________________________________________________________________________________________
+3/10/24
+1.My Profile
+2.Insurance
+3.Fresh login attempt
+__________________________________________________________________________________________
+04/10/24
+1.Insurance
+2.Fresh login 
+3.net banking second scn pending
+
+________________________________________________________________________________________________
+07/10/24
+1.421 retest in PT
+_________________________________________________________________________________________
+
+10/10/24
+1.421 preprod
+2.Template
+3.new raised enrichment and navigation single t batch
+
+____________________________________________________________________________________________
+14/10/24
+1.1.421 preprod
+2.Template
+3. Defect raise - template email
+4. 
+________________________________________________________________________________________
+16-10-24
+1.LEI execution logs for future
+______________________________________________________________________________________
+17/10/24
+1.recreate 60
+2.incorrect OTP logs
+____________________________________________________________________________________
+22/10/24
+1.74 pass logs attch by Pallavi
+
+_______________________________________________________________________________________
+23/10/24
+1.uat 60 update to vidya
+
+SFDC azure diff
+_______________________________________________________________________________________
+28/10/24
+1.FIle upload status
+__________________________________________________________________________________
+
+29-10-24
+1.Issue 1) File upload > after submitting pending submit txn navigate to modification required tab from all tab
+        2) Not able to reject multiple txn at instrument level . using  checkbox
+        5) Repeat payment option .  (for pending send )
+       5) LEI code accepting special character   -> check 50 cr txns done on 31 oct  - NEED to discuss on Monday
+        
+_____________________________________________________________________________
+07/11/24
+
+1.Retest 103  - Fail initiated batch showing in modification required tab with pending submit and pending approval
+2.new issue create payment link
+
+__________________________________________________________________________________
+08/11/24
+1.Issue to be raised for create new payment link .
+2.110 issue - my point is closed for error(phone number) . open for vidyas error .  tracker need to updated
+3.Repeat payment option . need to test defect would find (for pending send ).
+
+Pending approval txn batch and single -> discard button available from modification required tab. 
+    					After discarding single txn . nothing happening 
+					After discarding batch txn . link for create payment disappear .and get error your request has failed .kindly retry...... & txn not get discarded
+
+__________________________________________________________________________________________
+11/12/24
+1.raise issue submit .............................Done     
+2.pallavi beneficiary make payment----............done
+3.scn executipn vidya ..........................Pending related to UAT5-74 (batch with verified, pending verificaitn, pending approval and pending send  and try to submit same batch what happens (split ). at every steps check tabs.
+
+4.focus on 113 IMP
+_________________________________________________________________________________________
+13/11/24
+1.SCN execution related uat 74 by vidya ..............Pending
+2.NEFT txn normal ,wiyh lei & without tommarow.......Done
+3.78 auzure.........................................Done
+4.pull to bank test...............................Done
+5.115 & 114 riase and azure ................Done
+6.weekly and wizhible....................don
+
+________________________________________________________________________________________
+19/11/24
+1.Paymode option not available in filter for pending send tab ....issue to be raised
+
+_____________________________________________________________________________________
+21/11/24
+1.115 retest  /103 retest ...............................................Done
+2.Discussion on view verify detail page while rejecting txn not show confirmation popup...........Done
+3.Defect raise --Filter pending send Tab ................................ Pending
+
+____________________________________________________________________________________
+
+04/12/24
+1.Bulk upload screen -> above 100 zhoom client name alignment getting unproper
+2.110 retest ---------------------------------------------------------Pending vrushali
+3.119 & 120 azure id update 276384 /276389 
+4.113 passed but azure pass pending to upload 
+
+____________________________________________________________________________________
+05/12/24
+1.Azure pass for 116 and 113  -  tracker modify
+2.bulk payment issue - showing do you want to continue after clicking new payment form submit file page
+
+
+_______________________________________________________________________
+12/12/24
+1.120 sfdc no update in tracker
+ 3.Pending send txn -> repeat txn full data not loads , after refresh loading but alignment issue
+________________________________________
+13/12/24
+1.
+
+____________________________________________________________________________________________________________
+16/12/24
+1.Upcoming payments - Files upload check ,are txn reflecting or not-------------------------------------Done
+2.103 - logs share and mail dromp by Vidya  --network tab & fcm logs................................Requested
+3.129  --Success page new payent link popup issue  --->129 page links -pass logs lepts in folder  ...........Done 
+4.115  -- popups                                         -----------------------------
+______________________________________________________________________________________________________
+26/12/24
+168 -> after reducing no of txn in zero proof - discard existing txn and adjust amount   try to this find more scn . if found then raised after got fix of 168 and show that it afected-----Done
+
+
+_________________________________________________________________________________________________________
+2/12/24
+
+862 - last attempt pending    
+SCN given by vidya  - Initiate txn by maker so from fyn - txn will be as pending verification    - verify through verifier from NB login  
+____________________________________________________________________________________________________________
+6/12/25
+1.MIS reports validations
+2.Issue on view verify details page- button on submit pop which get after clicking on submit button on view verify detail page (popup get when there are all verified txn on current page- popup for split )
+
+________________________________________________________________________
+10/01/25
+1.Testcases writing for reports - wireframe onpen from given link 
+
+
+maker verify 
+862
+315
+
+
+
+
+
+
+
+
+
+
+
+
+.......
+Project Name : Kotak Jarvis UAT
+Role   :  Test Engineer 
+Working on client side.
+
+Description: 	
+-Web application used for corporate banking to make vendor payments and employee salaries processing.
+
+Responsibilities:
+-End-to-end application testing.
+-Raised defects to the developer team, handled retesting & managed defect throughout the process.
+-performed sanity and regression testing to ensure everything is working as expected.
+-Communicated with client to answer question and resolve issues.
+-Working with different team to ensure smooth running of the application
+
+
+......Project Name : Automated Testing for OrangeHRM Web Application (Pilot Project)
+
+Description:
+Tests the Web Application using Java and Selenium. 
+• Used POM Structure and Cucumber Framework. 
+• Follow Data Driven Approach 
+• Version control Git and GitHub. 
+• Jenkins used for Auto build. 
+• Reporting the test results (HTML, Index Report, Cucumber Reports)
+
+
+
+
+
+
+
+
+
+
+Certificates........................
+
+istqb
+automation selenium
+mendix
+tosca
+cypres
+playwrit
+manual 2 certificate
+
+
+
+Regression->
+1.SDE  ->     Adhoc ,  Added bene 
+2.Batch(all combine product) -> added & adhoc receiver, added receiver
+                              With Zero proofing 
+                              Batch update
+3.Bulk Upload    -> Text format  , xlx for mat  ,  xlsx format
+
+
+
+
