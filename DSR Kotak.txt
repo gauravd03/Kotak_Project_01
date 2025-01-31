@@ -361,9 +361,23 @@ ________________________________________________________________________
 1.Testcases writing for reports - wireframe onpen from given link 
 
 
-maker verify 
-862
-315
+____________________________________________________
+31/01/25
+
+1.Test case writing for SCN 14 
+
+ All mixed filed upload once (all packages + all Products + only credit narration , only debit narration , with credit & Debit, and without Credit and debit )
+
+Validate below combination for all reports mentioned in testcses
+NEFT -: testcase writing 
+ conbitnation for steps
+NEFT -BBpack -credit narration 
+NEFT -IIpack -Debit narration 
+NEFT -IP    -Credit & Debit
+NEFT - BI   -Without Credit and Debit 
+NEFT -IB 
+
+
 
 
 
