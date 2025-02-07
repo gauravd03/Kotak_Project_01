@@ -373,18 +373,18 @@ NEFT -: testcase writing
  conbitnation for steps
 NEFT -BBpack -credit narration 
 NEFT -IIpack -Debit narration 
-NEFT -IP    -Credit & Debit
-NEFT - BI   -Without Credit and Debit 
-NEFT -IB 
+NEFT -IP    -WithoutCredit & Debit
+NEFT - BI    Credit and Debit 
+NEFT -BP 
 
 
-
-
-
-
-
-
-
+...........................
+Orange HRM
+Login as Admin 
+PIM -create employee and fill all details like job details and personal
+Admin-create system user account for created employee to give access to application
+Leave - add leave entitilement to created user. then login as user and apply for leave and approve from admin
+Time - add project and activities and assign employee.  then login as employee and fill time sheet
 
 
 
